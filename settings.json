@@ -1,0 +1,10 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "sonarlint.connectedMode.conections.sonarqube": 
+        {
+            "connectionId": "sonar", // id of your sonarqube server
+            "serverUrl": "http://172.31.24.20:9000", // url of your sonarqube server
+            "token": "sqp_d905923f4748a8e12504c6aa388fee8ca71a2335" // token to authenticate with sonarqub
+        }
+}
+
