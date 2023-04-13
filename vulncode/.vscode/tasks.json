@@ -1,0 +1,12 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Secururity Scan",
+            "type": "shell",
+            "command": "sudo ../sonar-scanner-4.8.0.2856-linux/bin/sonar-scanner -D\"sonar.projectKey=pssecdev\" -D\"sonar.sources=.\" -D\"sonar.host.url=http://172.31.24.20:9000\" -D\"sonar.login=sqp_c6f235f494a23cee18cb5f94b4f314dfcaa215e6\" -D\"sonar.java.jdkHome=/usr/lib/jvm/default-java"
+        }
+    ]
+}
